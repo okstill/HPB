@@ -4,7 +4,7 @@ Humanoid Play Basketball：用人类示范重定向到 CASBOT 02，再经强化�
 
 ## 当前阶段
 
-本仓库只有技术设计，不包含机器人模型、仿真环境或训练代码。CASBOT 02 的 URDF/MJCF 进入仓库之前，不训练策略。
+本仓库只有技术设计，不包含机器人模型、仿真环境或训练代码。机器人单臂为 7 自由度。模型文件随后从本地工程放入仓库并用 git 管理；入库之前不训练策略。
 
 - [docs/architecture.md](docs/architecture.md)：接触三层表示、视觉接口、无触觉预判、固定张开手型、从拣球到对抗的技能阶梯。
 - [docs/dataset.md](docs/dataset.md)：GVHMR + Holosoma 重定向结果要对齐的样本字段（机器人、球、接触相位、技能名、来源）。
